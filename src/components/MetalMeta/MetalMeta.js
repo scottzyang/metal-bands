@@ -6,10 +6,10 @@ function MetalMeta() {
   }, 0)
 
   return (
-    <section className='flex flex-col items-start m-6'>
-      <p><strong>Metal Bands🤘</strong></p>
-      <p><strong>Total Bands: </strong>{data.length}</p>
-      <p><strong>Total Number of Fans 🎸: </strong>{total_fans}</p>
+    <section className='flex flex-col items-center m-6'>
+      <p className='google-font text-lg'><strong>Metal Bands🤘</strong></p>
+      <p className='google-font text-lg'><strong>Total Bands: </strong>{data.length}</p>
+      <p className='google-font text-lg'><strong>Total Number of Fans 🎸: </strong>{total_fans}</p>
     </section>
   )
 }
