@@ -4,13 +4,6 @@ import data from '../../metal.json'
 import BandCard from '../BandCard/BandCard'
 
 function BandList() {
-  // const bandList = data.map(({ band_name, fans, origin, formed, split, style }) => {
-  //   return (
-  //     <div className='border-solid border-4 border-gray-400'>
-  //       <BandCard key={band_name} band_name={band_name} fans={fans} origin={origin} formed={formed} split={split} style={style}/>
-  //     </div>
-  //   )
-  // })
   const [query, setQuery] = useState('')
   const bandList = data.filter((obj) => {
     const inName = obj.band_name.toLowerCase().includes(query.toLowerCase())
