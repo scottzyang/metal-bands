@@ -1,5 +1,6 @@
 import Heading from '../Heading/Heading';
 import MetalMeta from '../MetalMeta/MetalMeta';
+import BandList from '../BandList/BandList';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Heading />
       <MetalMeta />
+      <BandList />
     </div>
   );
 }
