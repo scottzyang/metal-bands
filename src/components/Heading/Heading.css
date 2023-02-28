@@ -1,3 +1,18 @@
 .google-font {
   font-family: 'New Rocker', monospace;
 }
+
+.header-image {
+  animation-name: fade-in;
+  animation-duration: 7s;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
