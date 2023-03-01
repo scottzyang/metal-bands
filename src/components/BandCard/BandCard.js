@@ -3,7 +3,8 @@ import './BandCard.css'
 
 function BandCard({band_name, fans, formed, origin, split, style}) {
   const fans_format = (fans) => {
-    return fans.toLocaleString('en')
+    let new_fans = fans * 1000
+    return new_fans.toLocaleString('en')
   }
 
   const band_style = style.split(',').map((style_item) => {
